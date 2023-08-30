@@ -115,9 +115,10 @@ public class EcommTest extends BaseClass {
 		}
 
 		if (browser.equalsIgnoreCase("FF")) {
-			System.setProperty("webdriver.gecko.driver",rootPath+"\\Drivers\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver",rootPath+"\\Drivers\\geckodriver.exe");
 			//FirefoxOptions options = new FirefoxOptions();
 			//options.addArguments("--remote-allow-origins=*");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

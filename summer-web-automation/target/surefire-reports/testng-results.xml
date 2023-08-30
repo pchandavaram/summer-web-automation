@@ -2,38 +2,38 @@
 <testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T13:18:27 EDT" name="Suite" finished-at="2023-08-23T13:18:35 EDT" duration-ms="7904">
+  <suite started-at="2023-08-30T14:58:25 EDT" name="Suite" finished-at="2023-08-30T14:58:31 EDT" duration-ms="6041">
     <groups>
     </groups>
-    <test started-at="2023-08-23T13:18:27 EDT" name="Test" finished-at="2023-08-23T13:18:35 EDT" duration-ms="7904">
+    <test started-at="2023-08-30T14:58:25 EDT" name="Test" finished-at="2023-08-30T14:58:31 EDT" duration-ms="6041">
       <class name="com.busyqa.base.BaseClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.busyqa.base.BaseClass@424ebba3]" started-at="2023-08-23T13:18:27 EDT" name="setUp" finished-at="2023-08-23T13:18:27 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.busyqa.base.BaseClass@1863d2fe]" started-at="2023-08-30T14:58:25 EDT" name="setUp" finished-at="2023-08-30T14:58:25 EDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="superTearDown()[pri:0, instance:com.busyqa.base.BaseClass@424ebba3]" started-at="2023-08-23T13:18:35 EDT" name="superTearDown" finished-at="2023-08-23T13:18:35 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="superTearDown()[pri:0, instance:com.busyqa.base.BaseClass@1863d2fe]" started-at="2023-08-30T14:58:31 EDT" name="superTearDown" finished-at="2023-08-30T14:58:31 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- superTearDown -->
       </class> <!-- com.busyqa.base.BaseClass -->
       <class name="com.busyqa.tests.EcommTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.busyqa.tests.EcommTest@37052337]" started-at="2023-08-23T13:18:27 EDT" name="setUp" finished-at="2023-08-23T13:18:28 EDT" duration-ms="714" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.busyqa.tests.EcommTest@1787bc24]" started-at="2023-08-30T14:58:25 EDT" name="setUp" finished-at="2023-08-30T14:58:25 EDT" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="init()[pri:0, instance:com.busyqa.tests.EcommTest@37052337]" started-at="2023-08-23T13:18:28 EDT" name="init" finished-at="2023-08-23T13:18:31 EDT" duration-ms="3400" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.busyqa.tests.EcommTest@1787bc24]" started-at="2023-08-30T14:58:25 EDT" name="init" finished-at="2023-08-30T14:58:28 EDT" duration-ms="2887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="titleTest()[pri:0, instance:com.busyqa.tests.EcommTest@37052337]" started-at="2023-08-23T13:18:31 EDT" name="titleTest" finished-at="2023-08-23T13:18:34 EDT" duration-ms="2487" status="PASS">
+        <test-method signature="titleTest()[pri:0, instance:com.busyqa.tests.EcommTest@1787bc24]" started-at="2023-08-30T14:58:28 EDT" name="titleTest" finished-at="2023-08-30T14:58:30 EDT" duration-ms="2271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.busyqa.tests.EcommTest@37052337]" started-at="2023-08-23T13:18:34 EDT" name="quit" finished-at="2023-08-23T13:18:35 EDT" duration-ms="1092" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.busyqa.tests.EcommTest@1787bc24]" started-at="2023-08-30T14:58:30 EDT" name="quit" finished-at="2023-08-30T14:58:31 EDT" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.busyqa.tests.EcommTest@37052337]" started-at="2023-08-23T13:18:35 EDT" name="tearDown" finished-at="2023-08-23T13:18:35 EDT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.busyqa.tests.EcommTest@1787bc24]" started-at="2023-08-30T14:58:31 EDT" name="tearDown" finished-at="2023-08-30T14:58:31 EDT" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
