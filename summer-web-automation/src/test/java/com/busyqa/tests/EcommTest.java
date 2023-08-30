@@ -118,6 +118,7 @@ public class EcommTest extends BaseClass {
 			//System.setProperty("webdriver.gecko.driver",rootPath+"\\Drivers\\geckodriver.exe");
 			//FirefoxOptions options = new FirefoxOptions();
 			//options.addArguments("--remote-allow-origins=*");
+			//Using WebDriver Manager
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
