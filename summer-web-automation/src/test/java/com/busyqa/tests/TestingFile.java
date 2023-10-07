@@ -14,6 +14,7 @@ public class TestingFile {
 		{
 		    int answer = rn.nextInt(10) + 1;
 		    System.out.println(answer);
+		    System.out.println("hi");
 		}
 
 	}
